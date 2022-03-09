@@ -34,3 +34,5 @@ jobs:
 
   publish:
     needs: build
+    steps:
+    - uses: actions/checkout@v2
